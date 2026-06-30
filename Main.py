@@ -1,1 +1,1 @@
-print("Hello")
+# Main code for attendance project
