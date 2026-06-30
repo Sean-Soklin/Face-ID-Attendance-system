@@ -16,8 +16,7 @@ for video in video_files:
     student_name = os.path.splitext(video_file)[0]
     # file path
     video_path = os.path.join(VIDEO_FOLDER, video_file)
-    
-    # Initialize the OpenCV video capture object to read the specific student's video file
+    # read student video file
     cap = cv2.VideoCapture(video_path)
     frame_count = 0  # Counter to keep track of the total number of frames processed so far
     saved_count = 0  # Counter to track how many image frames have been successfully saved
