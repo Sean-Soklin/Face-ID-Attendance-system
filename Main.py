@@ -8,5 +8,5 @@
 
 
 
-# 2. camera handle and face recognition handle (Prithy Monynich)
+# 2. camera handle and face recognition handle (Nimol , Nynich)
 
