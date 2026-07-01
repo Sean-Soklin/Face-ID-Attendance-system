@@ -4,7 +4,7 @@
 
 # 1. processing student images in student image folder  (Nimol)
 # task : 
-# write code to automatically load, process, and extract facial features (encodings) from a folder of student images to prepare a face recognition system. 
+# write code to automatically load, process, and extract facial features (encodings) from a subfolder in  student images folder to prepare a face recognition system. 
 # cleans up the image filenames to use them as formatted student names.
 
 
