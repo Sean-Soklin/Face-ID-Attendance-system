@@ -10,4 +10,4 @@
 
 # 2. camera handle and face recognition handle (Nimol , Nynich)
 
-Print("HI")
+print("HdgsfdfdfdsfdI")
