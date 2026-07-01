@@ -8,5 +8,9 @@
 
 
 
-# 2. camera handle and face recognition handle (Nimol , Nynich)
+# 2. camera handle and face recognition handle (Monity , Nynich)
+# task : Monity : write code to open windows camera , adjsut camera frame lighting , scanning student faces
 
+
+
+# task : Nynich : write code to do face recognition comparing face from real live on camera with imges in folder , if face matches mark present
