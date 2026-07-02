@@ -5,6 +5,4 @@
 # Skip any images that cannot be processed or do not contain a detectable face. After processing all students, 
 # save all face encodings and names into an encodings.pickle file using pickle so the main attendance program can load them quickly 
 # without re-encoding every image.
-
-
-print("Test")
+print(""HI)
