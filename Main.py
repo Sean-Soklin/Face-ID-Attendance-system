@@ -1,13 +1,24 @@
 # Main code for attendance project
-# libiary 
+# library 
 
+import pickle
+import sys
 
-# 1. processing student images in student image folder  (Nimol)
-# task : write code to process student image in student images folder , getting each student's name from the file 
+try:
+    with open("encodings.pickle", "rb") as file:
+        data = pickle.load(file)
 
+    knownEncodings = data["encodings"]
+    knownNames = data["names"]
+
+except FileNotFoundError:
+    print("Error: encodings.pickle file not found.")
+    sys.exit()
+
+markedStudents = set()
 
 
 
 # 2. camera handle and face recognition handle (Nimol , Nynich)
 
-print("HdgsfdfdfdsfdI")
+
