@@ -5,22 +5,22 @@ import face_recognition
 import numpy as np
 import pickle
 import time
-import sys
+
 
 # Monity  #load face encoding
-
+ENCODINGS_FILE = 'encodings.pickle'
 try:
-    with open("encodings.pickle", "rb") as file:
+    with open(ENCODINGS_FILE, "rb") as file:
         data = pickle.load(file)
 
-    knownEncodings = data["encodings"]
-    knownNames = data["names"]
+    known_face_encodings = data["encodings"]
+    known_face_names = data["names"]
 
 except FileNotFoundError:
     print("Error: encodings.pickle file not found.")
     sys.exit()
 
-markedStudents = set()
+already_logged = set()
 
 # Monynich : Handling camera , camera frame and face recognition
 print("Opening camera to Scan attendance !")
