@@ -2,11 +2,22 @@
 # libiary 
 
 # Monity
-# Create a module that loads the pre-computed face recognition database from encodings.pickle.
-# Extract the saved face encodings and their corresponding names into separate variables. 
-# If the file cannot be found, display an error message and terminate the program. Finally, initialize an empty set to keep 
-# track of students whose attendance has already been recorded so duplicate entries are prevented.
-# write code in this block
+import pickle
+import sys
+
+try:
+    with open("encodings.pickle", "rb") as file:
+        data = pickle.load(file)
+
+    knownEncodings = data["encodings"]
+    knownNames = data["names"]
+
+except FileNotFoundError:
+    print("Error: encodings.pickle file not found.")
+    sys.exit()
+
+markedStudents = set()
+
 
 
 
