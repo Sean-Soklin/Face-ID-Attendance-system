@@ -6,8 +6,7 @@ import numpy as np
 import pickle
 import time
 
-
-# Monity  #load face encoding
+# face encoding
 ENCODINGS_FILE = 'encodings.pickle'
 try:
     with open(ENCODINGS_FILE, "rb") as file:
@@ -22,7 +21,7 @@ except FileNotFoundError:
 
 already_logged = set()
 
-# Monynich : Handling camera , camera frame and face recognition
+# camera and face recognition
 print("Opening camera to Scan attendance !")
 print("Press n on Keyboard to exit")
 
