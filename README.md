@@ -28,10 +28,15 @@ use python version 3.8-3.11 with these versions we don’t have to install dlib.
 Where to install these libraries:
 
 We can install python on the official python website.
-opencv-python can be installed directly through your terminal with pip. For macos we can use pip3.
-For face recognition you can still use pip or pip3 to install it directly.
-In case you use python version 3.12, you have to download C++ compiler on your vscode first then we can simply ask pip to install dlib.
-For numpy you can directly download it with pip or pip3.
+- opencv-python: can be installed directly through your terminal with pip.
+  prompt: 'pip install opencv-python' for windows and 'pip3 install opencv-python' for macos.
+- face recognition: can be installed directly through your terminal with pip.
+  prompt: 'pip install face_recognition' for windows and 'pip3 install face_recognition' for macos.
+- dlib: in case you are using python version (3.12) you need to install C++ compiler in your vs code first then you can prompt pip to install dlib.
+  prompt: 'pip install dlib' for windows. If it doesn't work you can prompt it to install cmake first: 'pip install cmake'.
+  For macos you have to command terminal to install Apple's command-line developer tools first 'xcode-select --install'. Then you need a tool called homebrew to easily grab compiler tool. To do that you use this bash: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)". once your homebrew is ready you can command: 'brew install cmake'. Once it's ready you can now download dlib with pip: 'pip3 install dlib'.
+- numpy: can be installed directly through your terminal with pip.
+- prompt: 'pip install numpy' for windows and 'pip3 install numpy' for macos.
 
 
 How to Run: Clear, step-by-step instructions on how to execute your code.
