@@ -36,7 +36,7 @@ We can install python on the official python website.
   prompt: 'pip install dlib' for windows. If it doesn't work you can prompt it to install cmake first: 'pip install cmake'.
   For macos you have to command terminal to install Apple's command-line developer tools first 'xcode-select --install'. Then you need a tool called homebrew to easily grab compiler tool. To do that you use this bash: /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)". once your homebrew is ready you can command: 'brew install cmake'. Once it's ready you can now download dlib with pip: 'pip3 install dlib'.
 - numpy: can be installed directly through your terminal with pip.
-- prompt: 'pip install numpy' for windows and 'pip3 install numpy' for macos.
+  prompt: 'pip install numpy' for windows and 'pip3 install numpy' for macos.
 
 
 How to Run: Clear, step-by-step instructions on how to execute your code.
