@@ -28,8 +28,8 @@ use python version 3.8-3.11 with these versions we don’t have to install dlib.
 Where to install these libraries:
 
 We can install python on the official python website.
-- opencv-python: can be installed directly through your terminal with pip.
-  prompt: 'pip install opencv-python' for windows and 'pip3 install opencv-python' for macos.
+- opencv-python: can be installed directly through your terminal with comand promt :
+  'pip install opencv-python' for windows and 'pip3 install opencv-python' for macos.
 - face recognition: can be installed directly through your terminal with pip.
   prompt: 'pip install face_recognition' for windows and 'pip3 install face_recognition' for macos.
 - dlib: in case you are using python version (3.12) you need to install C++ compiler in your vs code first then you can prompt pip to install dlib.
