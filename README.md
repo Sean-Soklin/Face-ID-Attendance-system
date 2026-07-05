@@ -25,6 +25,14 @@ dlib == 20.0.1  (python 3.12)
 numpy == 2.4.2
 use python version 3.8-3.11 with these versions we don’t have to install dlib. However  if we use python 3.12 dlib is required
 
+Where to install these libraries:
+
+We can install python on the official python website.
+opencv-python can be installed directly through your terminal with pip. For macos we can use pip3.
+For face recognition you can still use pip or pip3 to install it directly.
+In case you use python version 3.12, you have to download C++ compiler on your vscode first then we can simply ask pip to install dlib.
+For numpy you can directly download it with pip or pip3.
+
 
 How to Run: Clear, step-by-step instructions on how to execute your code.
 -Install all the libraries in your computer
