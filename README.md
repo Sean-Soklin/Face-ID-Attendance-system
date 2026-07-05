@@ -1,6 +1,6 @@
-# Face-ID-Attendance-system
 
-project title: CUTIEZ
+project title: Face-ID-Attendance-system
+group 3
 
 Name of all group members:
 Ly Sivpinh
