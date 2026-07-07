@@ -41,11 +41,10 @@ We can install python on the official python website.
 
 How to Run: Clear, step-by-step instructions on how to execute your code.
 -Install all the libraries in your computer
--Open vs code created a new folder
--Create a folder name student_videos and store all your student videos in there put it in vs code folder
--Copy all the .py files ( extract_video.py  , main.py , encoding_faces.py )
--Run extract_video.py file , the system will now extract each student frame from videos than save it into student_images folder
--Run encoding_faces.py , the system will now convert images into numerical this might takes lots of time
+-clone our project repository into vs code
+-add all your student videos into the student_videos folder
+-Run extract_video.py file , the system will now extract each student frame from videos than save it student_images folder
+-Run encoding_faces.py , the system will now convert images into numerical vector this might takes lots of time
 -Run main.py every time you want to take attendance. 
 -Let the student stand in front of the camera if the face matches it will display the student name on screen and mark them present , if not it will display unknown.
 
